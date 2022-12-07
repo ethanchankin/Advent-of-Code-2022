@@ -23,7 +23,6 @@ int main(){
         }
 
         endloop:
-        int tmp = total;
         if(common > 96){ //could find a way to do this without an if statement but nah...
             total += (common - 42) % 27;
         } else{
